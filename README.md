@@ -1,3 +1,3 @@
-# ml-notes
+# cv-notes
 
-machine learning review notes.
+machine learning & computer vision course review notes.
