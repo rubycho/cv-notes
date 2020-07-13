@@ -1,1 +1,8 @@
+# jetbrains idea
 .idea/
+
+# video file
+*.avi
+
+# virtualenv
+venv/
