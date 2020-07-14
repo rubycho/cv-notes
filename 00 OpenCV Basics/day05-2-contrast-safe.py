@@ -2,8 +2,6 @@ import cv2 as cv
 import numpy as np
 
 
-# 전체 밝기 유지, 대비 높이기
-# 1.5 * img0 - 0.5 * mean
 def contrast_safe():
     """
     keep mean brightness, but increase contrast:
