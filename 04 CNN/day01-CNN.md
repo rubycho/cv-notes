@@ -107,7 +107,7 @@ model.add(layers.Dense(10, activation='softmax'))
 - we now flatten and use Dense(Fully Connected) Layer, do as we did on multi-class classification.
 - commonly, we can see that channels grow, but width, height shrinks.
 
-### References
+## References
 
 - Stanford CS231n
 - AI Innovation Square (KR)
