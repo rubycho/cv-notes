@@ -36,7 +36,7 @@ The basic operation is: "Filter and Stride", as we can see in the previous image
 - Stride to the next pixel and apply kernel.
 
 
-- If multiple channels, can use different kernels for each channel,
++ If multiple channels, can use different kernels for each channel,
  and sum up results of each channel, and add bias value.
 
 The result of Conv Layer is commonly called "Featrue Map (F-Map)".
@@ -64,9 +64,8 @@ model.add(layers.Conv2D(4, (3, 3),
 - The # of channel in output is 4, and filter shape is (3, 3).
 - It will use relu as activation function, and input layer(image) shape is (28, 28, 1), a grayscale image (MNIST).
 
-
-- We will need 4 kernels, 4 bias, 4 * (3 * 3 + 1) = 40 parameters.
-- output shape: (26, 26, 4)
++ We will need 4 kernels, 4 bias, 4 * (3 * 3 + 1) = 40 parameters.
++ output shape: (26, 26, 4)
 
 ```python
 model.add(layers.MaxPooling2D((2, 2)))
@@ -82,8 +81,7 @@ model.add(layers.Conv2D(8, (3, 3), activation='relu'))
 - The # of channel in output is 8, and filter shape is (3, 3).
 - We will need 4 * 8 kernels, ((3 * 3) * 4 + 1) * 8 = 296 parameters.
 
-
-- output shape: (11, 11, 8)
++ output shape: (11, 11, 8)
 
 ```python
 model.add(layers.MaxPooling2D((2, 2)))
@@ -98,8 +96,7 @@ model.add(layers.Conv2D(16, (3, 3), activation='relu'))
 - The # of channel in output is 16, and filter shape is (3, 3).
 - need 8*16 kernels, ((3 * 3) * 8 + 1) * 16 = 1168 parameters.
 
-
-- output shape: (3, 3, 16)
++ output shape: (3, 3, 16)
 
 ```python
 model.add(layers.Flatten())
@@ -109,3 +106,8 @@ model.add(layers.Dense(10, activation='softmax'))
 
 - we now flatten and use Dense(Fully Connected) Layer, do as we did on multi-class classification.
 - commonly, we can see that channels grow, but width, height shrinks.
+
+### References
+
+- Stanford CS231n
+- AI Innovation Square (KR)
