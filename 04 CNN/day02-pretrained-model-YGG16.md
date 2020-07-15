@@ -15,7 +15,7 @@ eventually changing the classifying part of a pre-trained model.
 The thing that makes this possible is that the main responsibility of conv, pool layers
 is feature extraction, and the dense layers which is placed nearly with output layer,
 classifies or do other problem-related-decision things using extracted features.
-(Though, in cs231n, it says that later layer also fits to the original data, that's why we do fine-tuning.)
+(Though, in cs231n, it says that later conv layer also fits to the original data, that's why we do fine-tuning.)
 
 For example, VGG-16 is a model trained with 14 million images belonging to 1000 classes.
 We can use this model to classify whether the image has a cat or a dog with a dataset.
