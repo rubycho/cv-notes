@@ -1,21 +1,21 @@
-## Using Pre-trained Model
+## Using a Pre-trained Model
 
 ### Transfer Learning
 
-Transfer Learning means using a pre-trained model, and re-train it by finely tuning parameters, 
-to make it fit into our current dataset, or a problem. This method is also called as Fine Tuning.
+Transfer Learning refers to the learning method using a pre-trained model, modify 
+a little bit to make it fit on different dataset or a problem.
 
-The pro of the deep learning is that we can use pre-trained model 
-(which is sufficiently trained with large dataset) for solving other problems.
+There are three scenarios, according to the stanford cs231n.
 
-This is because the main responsibility of conv, pool layers is feature extraction, 
-and the dense layers which is placed nearly with output layer, 
+Today, I will talk about one of them, using a pre-trained model,
+remove FC layers of it, add new FC layers at the end, 
+and train(back-propagation) only new added FC layers,
+eventually changing the classifier part of a pre-trained model.
+
+The thing that makes this possible is that the main responsibility of conv, pool layers
+is feature extraction, and the dense layers which is placed nearly with output layer,
 classifies or do other problem-related-decision things using extracted features.
-
-The trained part of conv and pool layers are called convolutional base,
-and as you can guess, we don't re-train the convolutional base on re-training, 
-and only remove the dense part and re-connect new dense layers which gets input from the base.
-Which means, backpropagation will be done only on re-connected new layer parameters, not on convolutional base.
+(Though, in cs231n, it says that later layer also fits to the original data, that's why we do fine-tuning.)
 
 For example, VGG-16 is a model trained with 14 million images belonging to 1000 classes.
 We can use this model to classify whether the image has a cat or a dog with a dataset.
@@ -66,5 +66,6 @@ Soon.
 
 ## References
 
-Neuro Hive: VGG16 – Convolutional Network for Classification and Detection 
-AI Innovation Square (KR)
+- Stanford CS231n
+- Neuro Hive: VGG16 – Convolutional Network for Classification and Detection 
+- AI Innovation Square (KR)
