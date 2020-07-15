@@ -7,7 +7,7 @@ a little bit to make it fit on different dataset or a problem.
 
 There are three scenarios, according to the stanford cs231n.
 
-Today, I will talk about one of them, using a pre-trained model,
+Today, I will talk about one of them, using a pre-trained classifier,
 remove FC layers of it, add new FC layers at the end, 
 and train(back-propagation) only new added FC layers,
 eventually changing the classifier part of a pre-trained model.
