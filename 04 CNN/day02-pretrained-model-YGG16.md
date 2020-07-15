@@ -18,7 +18,7 @@ classifies or do other problem-related-decision things using extracted features.
 (Though, in cs231n, it says that later conv layer also fits to the original data, that's why we do fine-tuning.)
 
 For example, VGG-16 is a model trained with 14 million images belonging to 1000 classes.
-We can use this model to classify whether the image has a cat or a dog with a dataset.
+We can use this model to only classify whether the image has a cat or a dog with a dataset.
 
 ### VGG-16 architecture
 
