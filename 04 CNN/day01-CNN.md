@@ -15,6 +15,8 @@ CNN: A Neural Network architecture, usually used for computer vision problems.
 - Shape of image: (H, W, C)
 - Shape of images(batch): (B, H, W, C)
 - Each item means Batch, Height, Width, Channel.
+- Instead of term "Channel", term "Depth" can be used. 
+Both means the third dimension of a image or a feature-map.
 
 ### Kernel (Filter)
 
@@ -32,11 +34,11 @@ CNN: A Neural Network architecture, usually used for computer vision problems.
 
 The basic operation is: "Filter and Stride", as we can see in the previous image.
 
+On 3D input (it could be a input image, or a feature-map):
 - Starting from the available-left-top-most pixel, apply the kernel.
 - Stride to the next pixel and apply kernel.
 
-
-+ If multiple channels, can use different kernels for each channel,
++ If it has multiple channels, can use different kernels for each channel,
  and sum up results of each channel, and add bias value.
 
 The result of Conv Layer is commonly called "Featrue Map (F-Map)".
