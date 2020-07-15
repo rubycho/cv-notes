@@ -7,10 +7,10 @@ a little bit to make it fit on different dataset or a problem.
 
 There are three scenarios, according to the stanford cs231n.
 
-Today, I will talk about one of them, using a pre-trained classifier,
-remove FC layers of it, add new FC layers at the end, 
+Today, I will talk about one of them, using a pre-trained model for classification,
+remove FC layers of it, add new FC layers at the end,
 and train(back-propagation) only new added FC layers,
-eventually changing the classifier part of a pre-trained model.
+eventually changing the classifying part of a pre-trained model.
 
 The thing that makes this possible is that the main responsibility of conv, pool layers
 is feature extraction, and the dense layers which is placed nearly with output layer,
