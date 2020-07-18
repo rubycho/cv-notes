@@ -60,7 +60,11 @@ Function used to create a augmented-data batch-per-iterator.
 - [Model](https://keras.io/api/models/model/)
 : compile(), get_layer(), fit(), fit_generator() will be used on next content.
 
-### Replacing classifier
+### Replacing classifier on VGG16
+
+Soon.
+
+### Using InceptionV3
 
 Soon.
 
