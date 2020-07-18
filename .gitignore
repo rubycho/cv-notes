@@ -10,3 +10,6 @@ venv/
 # images
 00 OpenCV Basics/gray_cat.png
 00 OpenCV Basics/draw.png
+
+# jupyter notebook
+.ipynb_checkpoints
