@@ -21,4 +21,4 @@ classifies or do other problem-related-decision things using extracted features.
 ## References
 
 - Stanford CS231n
-- AI Innovation Square (KR)
+- The Keras Blog
