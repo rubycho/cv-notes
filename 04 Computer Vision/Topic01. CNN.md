@@ -61,4 +61,3 @@ for i = 1 ... m:
 ## References
 
 - Stanford CS231n
-- AI Innovation Square (KR)
