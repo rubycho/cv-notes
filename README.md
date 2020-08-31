@@ -1,3 +1,7 @@
 # cv-notes
 
-machine learning & computer vision course review notes.
+computer vision code snippets.
+
+## Contents
+
+![contents](.github/cv-notes.png)
