@@ -13,6 +13,8 @@ computer vision code snippets.
   - CV03-3 Traffic Sign with YOLO
   - CV03-O Detecting in video
 - CV04 GAN
+  - CV04-1 GAN
+  - CV04-2 DCGAN
 - CV05 Cycle GAN
 - CV06 Style GAN
 - CV07 Neural Style Transfer
