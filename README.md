@@ -24,3 +24,8 @@ computer vision code snippets.
   - CV08-1 R-CNN*
   - CV08-2 SSD*
 - CV09 Final Project: Deep Fake*
+
+
+## Preview
+
+![](.github/preview.png)
