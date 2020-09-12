@@ -14,10 +14,13 @@ computer vision code snippets.
   - CV03-O Detecting in video
 - CV04 GAN
   - CV04-1 GAN
-  - CV04-2 DCGAN
-- CV05 Cycle GAN
-- CV06 Style GAN
-- CV07 Neural Style Transfer
-- CV08 Hyperparameter, Keras-Tuner
-
-more topics will be added!
+  - CV04-2 DCGAN alike
+- CV05 Neural Style Transfer*
+- CV06 GAN, more
+  - CV06-1 Cycle GAN*
+  - CV06-2 SRGAN*
+- CV07 Hyperparameter Tuning*
+- CV08 Object Detection, more
+  - CV08-1 R-CNN*
+  - CV08-2 SSD*
+- CV09 Final Project: Deep Fake*
