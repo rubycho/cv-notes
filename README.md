@@ -15,7 +15,7 @@ computer vision code snippets.
 - CV04 GAN
   - CV04-1 GAN
   - CV04-2 DCGAN alike
-- CV05 Neural Style Transfer*
+- CV05 Neural Style Transfer
 - CV06 GAN, more
   - CV06-1 Cycle GAN*
   - CV06-2 SRGAN*
