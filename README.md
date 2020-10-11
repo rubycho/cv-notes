@@ -28,7 +28,7 @@ After CV06-1, we are flying to PyTorch 🚀🚀🚀!
 - CV09 Final Project: Deep Fake*
 - CVA0 Let's learn PyTorch
   - CVA0-1 Learning PyTorch with Examples (1) (PyTorch)
-  - CVA0-2 Learning PyTorch with Examples (2)*
+  - CVA0-2 Learning PyTorch with Examples (2) (PyTorch)
 
 ## Hall of Outputs
 
